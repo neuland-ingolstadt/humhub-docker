@@ -12,6 +12,7 @@ RUN /download.sh
 
 COPY rootfs /
 USER www-data
+RUN /setup.sh
 
 VOLUME /var/www/html/protected/config
 VOLUME /var/www/html/protected/modules
