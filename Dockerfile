@@ -3,8 +3,6 @@ FROM php:8.1-apache
 ARG HUMHUB_VERSION
 
 ENV DEBIAN_FRONTEND noninteractive
-ENV YII_DEBUG false
-ENV YII_ENV prod
 
 COPY rootfs/prepare.sh /
 RUN /prepare.sh
