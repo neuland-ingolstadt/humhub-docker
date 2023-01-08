@@ -1,4 +1,5 @@
 #!/bin/bash
 set -euxo pipefail
 
-crontab /humhub.cron
+mkdir -p /var/spool/cron/crontabs
+busybox crontab -u www-data /humhub.cron

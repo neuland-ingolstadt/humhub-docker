@@ -1,2 +1,2 @@
-* * * * * /usr/local/bin/php /var/www/html/protected/yii queue/run >/dev/null 2>/dev/stderr
-* * * * * /usr/local/bin/php /var/www/html/protected/yii cron/run >/dev/null 2>/dev/stderr
+* * * * * /usr/local/bin/php /var/www/html/protected/yii queue/run
+* * * * * /usr/local/bin/php /var/www/html/protected/yii cron/run

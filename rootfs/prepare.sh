@@ -2,7 +2,7 @@
 set -euxo pipefail
 
 apt update
-apt install -y -o DPkg::Options::="--force-confold" supervisor cron build-essential libmagickwand-dev libzip-dev libldap2-dev
+apt install -y -o DPkg::Options::="--force-confold" supervisor busybox-static build-essential libmagickwand-dev libzip-dev libldap2-dev
 
 a2enmod rewrite
 
